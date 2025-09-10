@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Page() {
     return (
@@ -7,11 +8,9 @@ function Page() {
                 <h2 className="text-4xl font-bold text-center mb-4 text-white">
                     Industries We Serve
                 </h2>
-                {/* <p className="text-xl text-gray-300 text-center mb-16 max-w-2xl mx-auto">
-                    Transforming businesses across industries with cutting-edge AI solutions
-                </p> */}
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
                     {/* Education */}
                     <div className="group bg-[#0E0E0E] text-white shadow-lg hover:shadow-xl hover:bg-blue-600 p-6 transition-all duration-300 ease-in-out">
                         <div className="mb-4">
@@ -22,12 +21,12 @@ function Page() {
                             <p className="text-gray-300 leading-relaxed flex-1 mb-6">
                                 Transform learning with AI-powered e-learning, adaptive assessments, and personalized experiences that enhance engagement and outcomes. Create intelligent tutoring systems that adapt to individual learning styles and provide real-time feedback.
                             </p>
-                            <div className="flex items-center text-blue-400">
-                                <span className="text-sm font-medium">Learn more</span>
+                            <Link href="/industries/education" className="flex items-center text-blue-400 text-sm font-medium">
+                                Learn more
                                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                 </svg>
-                            </div>
+                            </Link>
                         </div>
                     </div>
 
@@ -41,31 +40,12 @@ function Page() {
                             <p className="text-gray-300 leading-relaxed mb-4">
                                 Deliver smart solutions with AI-powered property valuation, predictive insights, and automation tools tailored for residential and commercial sectors.
                             </p>
-                            <div className="flex items-center text-green-400">
-                                <span className="text-sm font-medium">Learn more</span>
+                            <Link href="/industries/real-estate" className="flex items-center text-green-400 text-sm font-medium">
+                                Learn more
                                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                 </svg>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Automobile */}
-                    <div className="group bg-[#0E0E0E] text-white shadow-lg hover:shadow-xl hover:bg-blue-600 p-6 transition-all duration-300 ease-in-out">
-                        <div className="mb-4">
-                            <img src="/auto-mechanic-working-garage-repair-service_146671-19601.jpg" alt="" className="w-full h-48 object-cover" />
-                        </div>
-                        <div>
-                            <h3 className="text-2xl font-bold mb-3 text-red-400">Automobile</h3>
-                            <p className="text-gray-300 leading-relaxed mb-4">
-                                Integrate smart tech and AI into your automotive systems, from predictive maintenance to autonomous driving innovations.
-                            </p>
-                            <div className="flex items-center text-red-400">
-                                <span className="text-sm font-medium">Learn more</span>
-                                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                </svg>
-                            </div>
+                            </Link>
                         </div>
                     </div>
 
@@ -79,12 +59,12 @@ function Page() {
                             <p className="text-gray-300 leading-relaxed mb-4">
                                 Build secure fintech platforms with AI-driven fraud detection, smart investments, and seamless digital payment experiences.
                             </p>
-                            <div className="flex items-center text-yellow-400">
-                                <span className="text-sm font-medium">Learn more</span>
+                            <Link href="/industries/fintech" className="flex items-center text-yellow-400 text-sm font-medium">
+                                Learn more
                                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                 </svg>
-                            </div>
+                            </Link>
                         </div>
                     </div>
 
@@ -98,12 +78,12 @@ function Page() {
                             <p className="text-gray-300 leading-relaxed mb-4">
                                 Scale your SaaS product with robust, secure, and AI-optimized features that adapt and grow with your business goals.
                             </p>
-                            <div className="flex items-center text-purple-400">
-                                <span className="text-sm font-medium">Learn more</span>
+                            <Link href="/industries/saas" className="flex items-center text-purple-400 text-sm font-medium">
+                                Learn more
                                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                 </svg>
-                            </div>
+                            </Link>
                         </div>
                     </div>
 
@@ -117,12 +97,12 @@ function Page() {
                             <p className="text-gray-300 leading-relaxed mb-4">
                                 Optimize delivery systems with AI-powered route planning, real-time tracking, and supply chain automation.
                             </p>
-                            <div className="flex items-center text-orange-400">
-                                <span className="text-sm font-medium">Learn more</span>
+                            <Link href="/industries/logistics" className="flex items-center text-orange-400 text-sm font-medium">
+                                Learn more
                                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                 </svg>
-                            </div>
+                            </Link>
                         </div>
                     </div>
 
@@ -136,35 +116,35 @@ function Page() {
                             <p className="text-gray-300 leading-relaxed mb-4">
                                 Empower care with AI for diagnostics, patient monitoring, and predictive health analytics that improve outcomes.
                             </p>
-                            <div className="flex items-center text-cyan-400">
-                                <span className="text-sm font-medium">Learn more</span>
+                            <Link href="/industries/healthcare" className="flex items-center text-cyan-400 text-sm font-medium">
+                                Learn more
                                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                 </svg>
-                            </div>
+                            </Link>
                         </div>
                     </div>
 
-                    {/* Manufacturing */}
+                    {/* Banking */}
                     <div className="group bg-[#0E0E0E] text-white shadow-lg hover:shadow-xl hover:bg-blue-600 p-6 transition-all duration-300 ease-in-out">
                         <div className="mb-4">
                             <img src="/high-angle-woman-playing-videogame-computer_23-2149349986.jpg" />
                         </div>
                         <div>
-                            <h3 className="text-2xl font-bold mb-3 text-indigo-400">Esports & Gaming </h3>
+                            <h3 className="text-2xl font-bold mb-3 text-indigo-400">Banking</h3>
                             <p className="text-gray-300 leading-relaxed mb-4">
-                                We create immersive gaming experiences with AI-enhanced mechanics, real-time analytics, and cross-platform development. Whether mobile, console, or cloud gaming, we bring your vision to life with cutting-edge technology.
+                                Revolutionize banking with AI-powered customer support, fraud detection, credit risk analysis, and seamless digital services that enhance trust and efficiency.
                             </p>
-                            <div className="flex items-center text-indigo-400">
-                                <span className="text-sm font-medium">Learn more</span>
+                            <Link href="/industries/banking" className="flex items-center text-indigo-400 text-sm font-medium">
+                                Learn more
                                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                 </svg>
-                            </div>
+                            </Link>
                         </div>
                     </div>
 
-                    {/* eCommerce */}
+                    {/* Retail & E-commerce */}
                     <div className="group bg-[#0E0E0E] text-white shadow-lg hover:shadow-xl hover:bg-blue-600 p-6 transition-all duration-300 ease-in-out">
                         <div className="mb-4">
                             <img src="/laptop-shopping-bags-online-shopping-concept_1423-189.jpg" />
@@ -174,14 +154,15 @@ function Page() {
                             <p className="text-gray-300 leading-relaxed mb-4">
                                 Boost your online store with AI-driven personalization, predictive analytics, and seamless payment integrations. From custom platforms to mobile commerce, we help retailers increase sales and improve customer experiences.
                             </p>
-                            <div className="flex items-center text-pink-400">
-                                <span className="text-sm font-medium">Learn more</span>
+                            <Link href="/industries/ecommerce" className="flex items-center text-pink-400 text-sm font-medium">
+                                Learn more
                                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                 </svg>
-                            </div>
+                            </Link>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

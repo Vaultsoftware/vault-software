@@ -1,5 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
-
+import { Phone } from "lucide-react"; 
 function AboutPage() {
     return (
         <div className="pt-24 bg-white">
@@ -30,13 +31,17 @@ function AboutPage() {
                             With a human-first approach and deep technical expertise, we work side by side with brands to design scalable solutions that elevate user experiences and accelerate business growth.
                         </p>
 
-                        <button className="mt-8 bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors self-start">
+                        {/* ✅ Phone Call Button */}
+                        <a
+                            href="tel:08087102888"
+                            className="mt-8 flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors self-start"
+                        >
+                            <Phone size={18} /> {/* Icon */}
                             Book a Call
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
-
 
             {/* Stats Section */}
             <div className="w-full bg-[#EBF3FF] py-16 max-w-7xl mx-auto px-4 md:px-8 rounded-2lg">
@@ -59,9 +64,6 @@ function AboutPage() {
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     );
 }

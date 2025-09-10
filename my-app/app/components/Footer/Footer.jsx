@@ -33,7 +33,7 @@ function Footer() {
           <ul className="space-y-2 text-sm text-gray-300">
             {[
               { label: 'SAAS', path: '/industries/saas' },
-              { label: 'Retail/Ecommerce', path: '/industries/retail' },
+              { label: 'Retail/Ecommerce', path: '/industries/ecommerce' },
               { label: 'Fintech', path: '/industries/fintech' },
               { label: 'Healthcare', path: '/industries/healthcare' },
               { label: 'Education', path: '/industries/education' },
@@ -54,7 +54,7 @@ function Footer() {
         <nav aria-label="Information">
           <h3 className="text-xl font-semibold mb-4">Information</h3>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li><Link href="/" className="hover:text-white">About Us</Link></li>
+            <li><Link href="/about" className="hover:text-white">About Us</Link></li>
             <li><Link href="/terms" className="hover:text-white">Terms of Use</Link></li>
             <li><Link href="/policy" className="hover:text-white">Privacy Policy</Link></li>
           </ul>

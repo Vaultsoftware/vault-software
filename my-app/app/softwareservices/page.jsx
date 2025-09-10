@@ -25,7 +25,7 @@ function Page() {
                     <div className="lg:col-span-2 space-y-6">
                         <div className="group">
                             <Link
-                                href="#"
+                                href="/softwareproduct"
                                 className="flex items-center gap-4 bg-[#005AE0] p-8 font-medium text-2xl transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 border border-blue-500/30"
                             >
                                 <span className="flex-1">Software Product Development</span>
@@ -35,7 +35,7 @@ function Page() {
 
                         <div className="group">
                             <Link
-                                href="#"
+                                href="/softwareintegration"
                                 className="flex items-center gap-4 bg-[#005AE0] p-8 font-medium text-2xl transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 border border-blue-500/30"
                             >
                                 <span className="flex-1">Software Integration Services</span>
@@ -45,7 +45,7 @@ function Page() {
 
                         <div className="group">
                             <Link
-                                href="#"
+                                href="/crm"
                                 className="flex items-center gap-4 bg-[#005AE0] p-8 font-medium text-2xl transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 border border-blue-500/30"
                             >
                                 <span className="flex-1">CRM Development</span>
@@ -55,7 +55,7 @@ function Page() {
 
                         <div className="group">
                             <Link
-                                href="#"
+                                href="/apidevelopment"
                                 className="flex items-center gap-4 bg-[#005AE0] p-8 font-medium text-2xl transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 border border-blue-500/30"
                             >
                                 <span className="flex-1">API Development Services </span>
@@ -65,10 +65,10 @@ function Page() {
 
                         <div className="group">
                             <Link
-                                href="#"
+                                href="/enterprisesoftware"
                                 className="flex items-center gap-4 bg-[#005AE0] p-8 font-medium text-2xl transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 border border-blue-500/30"
                             >
-                                <span className="flex-1">Enerprise Software</span>
+                                <span className="flex-1">Enterprise Software</span>
                             </Link>
 
                         </div>
@@ -91,7 +91,7 @@ function Page() {
                             <div className="space-y-6">
                                 <div className="flex flex-col sm:flex-row gap-4">
                                     <Link
-                                        href="#"
+                                        href="/form"
                                         className="group flex items-center justify-center gap-3 bg-[#005AE0] px-8 py-4 font-bold text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105"
                                     >
                                         Tell Us About Your Project
