@@ -1,7 +1,11 @@
 {
-  "projects": [
+  "version": 2,
+  "rootDirectory": "my-app",
+  "builds": [
     {
-      "rootDirectory": "my-app"
+      "src": "my-app/next.config.js",
+      "use": "@vercel/next"
     }
-  ]
+  ],
+  "framework": "nextjs"
 }
