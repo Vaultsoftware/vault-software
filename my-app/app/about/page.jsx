@@ -5,9 +5,9 @@ function AboutPage() {
     return (
         <div className="pt-24 bg-white">
             <div className="max-w-7xl mx-auto px-4 md:px-8 mb-10">
-                <h2 className="text-4xl mb-10 text-center font-bold text-gray-900">
+                {/* <h2 className="text-4xl mb-10 text-center font-bold text-gray-900">
                     About Vault (Private) Ltd
-                </h2>
+                </h2> */}
 
                 <div className="flex items-start gap-10 flex-col md:flex-row">
                     {/* Image */}
