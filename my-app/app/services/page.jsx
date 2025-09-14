@@ -144,7 +144,7 @@ export default function ServicesPage() {
                   ))}
                 </ul>
                 
-                <div className="mt-6 pt-6 border-t border-gray-100">
+                {/* <div className="mt-6 pt-6 border-t border-gray-100">
                   <Link
                     href="#contact"
                     className="inline-flex items-center text-[#1447E6] font-semibold hover:text-[#0f3dc2] transition-colors"
@@ -152,7 +152,7 @@ export default function ServicesPage() {
                     Learn More
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </Link>
-                </div>
+                </div> */}
               </div>
             ))}
           </div>
@@ -201,13 +201,13 @@ export default function ServicesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="#contact"
+              href="/form"
               className="bg-white text-[#1447E6] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors"
             >
               Start Your Project
             </Link>
             <Link
-              href="#portfolio"
+              href="/comapny"
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-[#1447E6] transition-colors"
             >
               View Our Work

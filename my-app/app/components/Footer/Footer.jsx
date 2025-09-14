@@ -66,7 +66,7 @@ function Footer() {
           <ul className="space-y-4 text-sm text-gray-300">
             <li className="flex items-center gap-2">
               <Mail size={18} /> 
-              <a href="mailto:contact@vault.com" className="hover:text-white">contact@vault.com</a>
+              <a href="mailto:contact@vault.com" className="hover:text-white">info@vaultsoftware.com</a>
             </li>
             <li className="flex items-center gap-2">
               <Phone size={18} /> 
@@ -78,7 +78,7 @@ function Footer() {
             </li>
             <li className="flex items-center gap-2">
               <LifeBuoy size={18} /> 
-              <a href="mailto:support@vault.com" className="hover:text-white">support@vault.com</a>
+              <a href="mailto:support@vault.com" className="hover:text-white">info@vaultsoftware.com</a>
             </li>
           </ul>
         </address>

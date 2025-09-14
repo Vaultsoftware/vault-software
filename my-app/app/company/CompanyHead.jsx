@@ -24,7 +24,7 @@ function Company() {
         </p>
         <div>
           <Link
-            href="/"
+            href="/form"
             className="mt-5 inline-block bg-[#1447E6] text-lg text-white px-10 py-3 rounded-md hover:bg-blue-800 transition"
           >
             Schedule a call
