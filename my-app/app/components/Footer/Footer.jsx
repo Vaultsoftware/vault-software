@@ -29,7 +29,7 @@ function Footer() {
 
         {/* Services */}
         <nav aria-label="Services">
-          <h3 className="text-xl font-semibold mb-4">Services</h3>
+          <h3 className="text-xl font-semibold mb-4">Industries</h3>
           <ul className="space-y-2 text-sm text-gray-300">
             {[
               { label: 'SAAS', path: '/industries/saas' },
