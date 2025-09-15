@@ -82,9 +82,9 @@ function Page() {
                                     Software Product Development
                                 </h2>
 
-                                <p className="text-base font-lg text-white mt-2 leading-relaxed max-w-3xl">
+                                {/* <p className="text-base font-lg text-white mt-2 leading-relaxed max-w-3xl">
                                     Transform ideas into market-leading products with end-to-end development services, from research and design to deployment and maintenance, using advanced technologies like Python, React, and Ruby on Rails.
-                                </p>
+                                </p> */}
                             </div>
 
 
