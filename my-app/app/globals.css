@@ -1,2 +1,10 @@
+/* app/globals.css */
+/* Tailwind v4 entry (keep whatever you already have above) */
 @import "tailwindcss";
 
+/* Calendly should overlay your fixed navbar */
+.calendly-overlay,
+.calendly-popup,
+.calendly-popup-content {
+  z-index: 9999 !important;
+}
