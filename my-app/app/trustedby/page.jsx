@@ -9,6 +9,9 @@ import Image from 'next/image'
 function Page() {
   const logos = [
     '/logo1.png',
+    '/ZenithCulinary_Logo-removebg-preview.png',
+    '/lASOP_chicken___rice_logo_2_1__OK-removebg-preview.png',
+    '/logo (1).png',
     '/logo2.png',
     '/logo3.png',
     '/logo4.png',
@@ -45,15 +48,16 @@ function Page() {
         >
           {logos.map((logo, index) => (
             <SwiperSlide key={index}>
-              <div className="flex items-center justify-center">
+              <div className="w-[120px] h-[100px] flex items-center justify-center">
                 <Image
                   src={logo}
                   alt={`Logo ${index + 1}`}
-                  width={150}
-                  height={100}
+                  fill
+                  className="object-contain items-center"
                 />
               </div>
             </SwiperSlide>
+
           ))}
         </Swiper>
       </div>
